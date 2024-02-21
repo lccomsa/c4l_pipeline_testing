@@ -3,7 +3,9 @@
 
 ## 1. Dependencies
 
-- SRA toolkit (optional)
+All dependencies are already present on amarel as a module or will become 
+accessible once you follow the instructions in section 1.1.
+
 - Python
 - perl
 - FastQC
@@ -12,6 +14,74 @@
 - BWA
 - Stampy
 - NOVOplasty
+
+### 1.1 Adding community modules and Geneva lab shared files
+
+First, your amarel account and environment should have some configurations 
+made so that you can access the necessary dependencies. You must have access 
+to the community module files, as well as the Geneva lab’s shared apps. You 
+can do this by following the following instructions:
+
+To use shared modules you will need to add these lines to your path.
+
+Edit your bash profile in your home directory
+```
+cd
+nano .bash_profile
+```
+In this file, there is a line labeled: `# User specific environment and startup programs`
+
+Paste these commands **underneath** that line
+```
+module use /projects/community/modulefiles
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:$HOME/last/bin:/projects/f_geneva_1/.shared_apps/bin
+export PATH
+```
+Save and exit the file, then run this command
+```
+source .bash_profile
+```
+
+
+**Note: The above changes will be permanent to your amarel account. 
+If you do not want that to be the case, reverse the second step to 
+delete the added text from your .bash_profile and everything will 
+revert back to previous settings.**
+
+### 1.2 Variables and file locations
+
+While following the instructions under **2. Setup**, you will need 
+several files and pieces of information, which will be listed below:
+
+For section 2.1:
+
+- The files that must be copied over are located on amarel in:
+		/projectsc/f_geneva_1/caden/mtGenomes/mitogenome_pipeline
+- The reference genome file is located at the following location. 
+Copy it into your project’s “references” folder
+		/projectsc/f_geneva_1/caden/mtGenomes/references/sagrei.fasta
+
+
+For section 2.2, use the following data to fill out your configuration file, as per the instructions:
+
+- Forward illumina reads:
+/projectsc/f_geneva_1/caden/mtGenomes/assemblies/tropidolepis-tc/tropidolepis-tc-SRR7240910_1.fastq.gz
+- Reverse illumina reads:
+/projectsc/f_geneva_1/caden/mtGenomes/assemblies/tropidolepis-tc/tropidolepis-tc-SRR7240910_2.fastq.gz
+- Read length:
+450
+- Insert length:
+125
+- Illumina adaptor file location:
+/projectsc/f_geneva_1/programs/trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10:4
+- Kmer: (leave the default of 33)
+- Species name
+anolis_tropidolepis
+- Name of reference:
+sagrei
+- Name of reference file
+sagrei.fasta
+
 
 ## 2. Setup
 
@@ -205,7 +275,7 @@ be deleted), or if they wish to rerun it from the last successful step. If the l
 desired, the user should edit the last part of the configuration file such that only 
 the relevant subsections of the pipeline run.
 
-### 2.4 Running the pipeline
+## 3. Running the pipeline
 
 To run the pipeline is relatively straightforward. For each of the instructions below, 
 where it says _yourName_ you should type the Name or ID that you chose during the 
