@@ -15,7 +15,7 @@ accessible once you follow the instructions in section 1.1.
 - Stampy
 - NOVOplasty
 <br>
-<br>
+
 ### 1.1 Adding community modules and Geneva lab shared files
 
 First, your amarel account and environment should have some configurations 
@@ -23,7 +23,7 @@ made so that you can access the necessary dependencies. You must have access
 to the community module files, as well as the Geneva lab’s shared apps. You 
 can do this by following the following instructions:
 <br>
-<br>
+
 To use shared modules you will need to add these lines to your path.
 
 Edit your bash profile in your home directory
@@ -44,13 +44,13 @@ Save and exit the file, then run this command
 source .bash_profile
 ```
 <br>
-<br>
+
 **Note: The above changes will be permanent to your amarel account. 
 If you do not want that to be the case, reverse the second step to 
 delete the added text from your .bash_profile and everything will 
-revert back to previous settings.**
+revert back to previous settings.**  
 <br>
-<br>
+
 ### 1.2 Variables and file locations
 
 While following the instructions under **2. Setup**, you will need 
@@ -64,7 +64,7 @@ For section 2.1:
 Copy it into your project’s “references” folder
 		/projectsc/f_geneva_1/caden/mtGenomes/references/sagrei.fasta
 <br>
-<br>
+
 For section 2.2, use the following data to fill out your configuration file, as per the instructions:
 
 - Forward illumina reads:  
@@ -85,7 +85,7 @@ sagrei
 - Name of reference file:  
 sagrei.fasta
 <br>
-<br>
+
 ## 2. Setup
 
 ### 2.1 Preliminary file and folder setup
@@ -108,9 +108,9 @@ Now, you will copy the following files into the "mitogenome\_pipeline" folder:
 - sam_depth.sh
 
 A reference mitochondrial genome is required to run the pipeline. Move 
-or copy your reference genome (in .fasta format) into the "references" folder.
+or copy your reference genome (in .fasta format) into the "references" folder.  
 <br>
-<br>
+
 ### 2.2 Filling out the configuration file
 
 Determine the name or ID you will to use for the read data that you will be 
@@ -234,7 +234,7 @@ the configuration file:
   NOT INCLUDE FILE PATH.
 </details>
 <br>
-<br>
+
 ### 2.3 Before running the pipeline
 
 Congratulations! You are almost at the point where you can run the pipeline!!
@@ -263,7 +263,7 @@ First, you must make a few modifications the the pipeline.sh file:
   Shell, you should consider changing your folder names to remove or replace the
   spaces with characters such as underscores or dashes.
 <br>
-<br>
+
 The second step only applies if you are trying to rerun the pipeline on a data 
 sample that previously failed. If this is your first time trying to assemble this 
 unique genome, then you can skip forward to the next section "Running the pipeline"
@@ -277,6 +277,7 @@ they wish to run the pipeline from the beginning (in which case all output files
 be deleted), or if they wish to rerun it from the last successful step. If the latter is 
 desired, the user should edit the last part of the configuration file such that only 
 the relevant subsections of the pipeline run.
+<br>
 
 ## 3. Running the pipeline
 
