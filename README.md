@@ -276,7 +276,7 @@ files should be deleted before a rerun. Additionally, the user should determine 
 they wish to run the pipeline from the beginning (in which case all output files should 
 be deleted), or if they wish to rerun it from the last successful step. If the latter is 
 desired, the user should edit the last part of the configuration file such that only 
-the relevant subsections of the pipeline run.
+the relevant subsections of the pipeline run.  
 <br>
 
 ## 3. Running the pipeline
