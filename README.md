@@ -290,14 +290,10 @@ the status of its run.
 Set ``--mail-used=`` to be your rutgers email address.
 
 
-To run the pipeline is relatively straightforward. For each of the instructions below, 
-where it says _yourName_ you should type the Name or ID that you chose during the 
-"Filling out The Configuration File" instructions above.
+Now, to run the pipeline is relatively straightforward. For each of the instructions below, 
+where it says _yourName_ you should type the Name or ID that you chose at the beginning of 
+section "2.2 Filling out The Configuration File" instructions above.
 
-- If running on the unix shell terminal locally, the pipeline can be run using
-```
-$  source pipeline.sh "yourName"
-```
 - If running on a computing system that utilizes slurm, then use
 ```
 $  sbatch pipeline.sh "yourName"
