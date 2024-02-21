@@ -281,6 +281,15 @@ the relevant subsections of the pipeline run.
 
 ## 3. Running the pipeline
 
+Open the pipeline.sh file with a text editor and update the following parts of the 
+#SBATCH code:
+
+Set the ``--output=`` to be in a location where you would like the pipeline to output 
+the status of its run.
+
+Set ``--mail-used=`` to be your rutgers email address.
+
+
 To run the pipeline is relatively straightforward. For each of the instructions below, 
 where it says _yourName_ you should type the Name or ID that you chose during the 
 "Filling out The Configuration File" instructions above.
