@@ -13,6 +13,7 @@ accessible once you follow the instructions in section 1.1.
 - Samtools ([documentation](https://www.htslib.org/doc/samtools.html))
 - BWA ([documentation](https://bio-bwa.sourceforge.net/bwa.shtml))
 - Stampy ([documentation](https://www.rdm.ox.ac.uk/files/research/lunter-group/stampyreadme.txt))
+- Bedtools2 ([documentation](https://bedtools.readthedocs.io/en/latest/index.html))
 - NOVOplasty ([documentation](https://github.com/ndierckx/NOVOPlasty))
 <br>
 
