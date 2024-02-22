@@ -58,32 +58,32 @@ several files and pieces of information, which will be listed below:
 
 For section 2.1:
 
-- The files that must be copied over are located on amarel in:
-		/projectsc/f_geneva_1/caden/mtGenomes/mitogenome_pipeline
+- The files that must be copied over are located on amarel in:  
+	/projectsc/f_geneva_1/caden/mtGenomes/mitogenome_pipeline
 - The reference genome file is located at the following location. 
-Copy it into your project’s “references” folder
-		/projectsc/f_geneva_1/caden/mtGenomes/references/sagrei.fasta
+Copy it into your project’s “references” folder  
+	/projectsc/f_geneva_1/caden/mtGenomes/references/sagrei.fasta
 <br>
 
 For section 2.2, use the following data to fill out your configuration file, as per the instructions:
 
 - Forward illumina reads:  
-/projectsc/f_geneva_1/caden/mtGenomes/assemblies/tropidolepis-tc/tropidolepis-tc-SRR7240910_1.fastq.gz
+	/projectsc/f_geneva_1/caden/mtGenomes/assemblies/tropidolepis-tc/tropidolepis-tc-SRR7240910_1.fastq.gz
 - Reverse illumina reads:  
-/projectsc/f_geneva_1/caden/mtGenomes/assemblies/tropidolepis-tc/tropidolepis-tc-SRR7240910_2.fastq.gz
+	/projectsc/f_geneva_1/caden/mtGenomes/assemblies/tropidolepis-tc/tropidolepis-tc-SRR7240910_2.fastq.gz
 - Read length:  
-450
+	450
 - Insert length:  
-125
+	125
 - Illumina adaptor file location:  
-/projectsc/f_geneva_1/programs/trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10:4
+	/projectsc/f_geneva_1/programs/trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10:4
 - Kmer: (leave the default of 33)
 - Species name:  
-anolis_tropidolepis
+	anolis_tropidolepis
 - Name of reference:
-apletophallus
+	apletophallus
 - Name of reference file:  
-apletophallus.fasta
+	apletophallus.fasta
 <br>
 
 ## 2. Setup
