@@ -80,10 +80,10 @@ For section 2.2, use the following data to fill out your configuration file, as 
 - Kmer: (leave the default of 33)
 - Species name:  
 anolis_tropidolepis
-- Name of reference:  
-sagrei
+- Name of reference:
+apletophallus
 - Name of reference file:  
-sagrei.fasta
+apletophallus.fasta
 <br>
 
 ## 2. Setup
