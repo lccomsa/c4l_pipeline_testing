@@ -63,7 +63,7 @@ For section 2.1:
 	/projectsc/f_geneva_1/caden/mtGenomes/mitogenome_pipeline
 - The reference genome file is located at the following location. 
 Copy it into your project’s “references” folder  
-	/projectsc/f_geneva_1/caden/mtGenomes/references/sagrei.fasta
+	/projectsc/f_geneva_1/caden/mtGenomes/references/apletophallus.fasta
 <br>
 
 For section 2.2, use the following data to fill out your configuration file, as per the instructions:
