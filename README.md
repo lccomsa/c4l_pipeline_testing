@@ -94,9 +94,9 @@ The first step necessary to prepare to run the pipeline is to select
 or create a folder in which the project will be conducted. It is 
 important that the name of the folder does not contain any SPACES! 
 From here on out in these instructions, this folder will be referred 
-to as your "project folder".
+to as "project_folder".
 
-Next, within your project folder, create the following two folders 
+Next, within project_folder, create the following three folders 
 (named EXACTLY as listed below, including identical capitalization):
 - species-fetch
 - references
