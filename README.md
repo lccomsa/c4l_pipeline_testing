@@ -102,7 +102,11 @@ Next, within project_folder, create the following three folders
 - references
 - mitogenome\_pipeline
 
-Now, you will copy the following files into the "mitogenome\_pipeline" folder:
+<details>
+<summary>Now, you will copy the following files from into the "mitogenome_pipeline" folder:</summary>
+Reminder: they are located on amarel at /projectsc/f_geneva_1/caden/mtGenomes/mitogenome_pipeline
+</details>
+
 - novoplasty_template.txt
 - pipe_config_template.txt
 - pipeline.sh
@@ -252,7 +256,7 @@ First, you must make a few modifications the the pipeline.sh file:
 ```
 - where it says ``project=""`` , delete anything that is between the quotes
   and then WITHIN THE QUOTES type the directory path to your
-  project folder that you selected or created at the beginning of this
+  project_folder that you selected or created at the beginning of this
   series of instructions. Make sure that you DO NOT put a "/" at the end of
   the directory path!! You should end up with something like this:
 ```
